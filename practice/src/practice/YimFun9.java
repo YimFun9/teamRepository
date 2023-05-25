@@ -2,10 +2,13 @@
 package practice;
 
 import java.awt.BorderLayout;
+import java.util.Locale;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+
+import com.github.javafaker.Faker;
 
 public class YimFun9 extends JFrame {
 //	똥 싸기~!
@@ -24,6 +27,8 @@ public class YimFun9 extends JFrame {
 	}
 	public static void main(String[] args) {
 		new YimFun9(); // 다 나오나요?
+		Faker faker = new Faker(new Locale("ko"));
+		System.out.println(faker.name().fullName());
 	}
 	
 }
