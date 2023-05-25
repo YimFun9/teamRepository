@@ -23,7 +23,7 @@ public class YimFun9 extends JFrame {
 		
 	}
 	public static void main(String[] args) {
-		new YimFun9();
+		new YimFun9(); // 다 나오나요?
 	}
 	
 }
